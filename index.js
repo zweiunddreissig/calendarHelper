@@ -1,4 +1,4 @@
-const line = require('@line/bot-sdk');
+const line = require('linebot');
 const express = require('express');
 const lineConfig = {
   channelAccessToken:'ozaQDMIhlhC72GhocJy143j3hgEROwnvZJC+A5NbJbpQI8dp/nkUyHN+8/b/1cqEI8HjO4W6vF92NDFaDg0VSbxJAbh9XOtWbXvOc/2IhACB/lmJ+Gjm38XWTccWITI+doTPvFW2RDmy4rvuE0FEdAdB04t89/1O/w1cDnyilFU=',

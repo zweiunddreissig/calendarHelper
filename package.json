@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "@line/bot-sdk": "^1.5.3"
+    "linebot": "^1.5.3"
   }
 }
