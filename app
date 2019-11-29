@@ -114,7 +114,14 @@ bot.on('message', function (event) {
 
             replyMsg = answer[Math.floor((Math.random())*l)];
             // replyMsg=answer.length.toString()
-      break    
+      break ;
+      case'大餐':   
+         replyMsg='沒問題我請客';
+      break ;
+      case'日曆':   
+         replyMsg='這個月就30天請自行安排';
+      break ;
+     
       default:
             replyMsg=`Hello你剛才說的是:${event.message.text}`;
   }
